@@ -1,7 +1,6 @@
 const express = require('express');
 const router = express.Router();
 const Item = require('../models/Item');
-
 router.get('/', async (req, res) => {
   try {
     const items = await Item.find().populate('createdBy', 'username');
@@ -19,6 +18,8 @@ router.post('/', async (req, res) => {
     const item = new Item({
       title: req.body.title,
       description: req.body.description,
+      year: req.body.year,
+      rating: req.body.rating,
       createdBy: req.session.userId
     });
     await item.save();
