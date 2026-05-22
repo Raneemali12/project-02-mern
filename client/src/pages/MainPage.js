@@ -12,7 +12,7 @@ const MainPage = () => {
     const [editDescription, setEditDescription] = useState('');
 
     const fetchMovies = () => {
-        fetch('http://localhost:5000/api/items', { credentials: 'include' })
+        fetch('hrn.onrender.com/api/items', { credentials: 'include' })
         .then(res => res.json())
         .then(data => setMovies(Array.isArray(data) ? data : []))
         .catch(err => console.log(err));
@@ -21,7 +21,7 @@ const MainPage = () => {
     useEffect(() => { fetchMovies(); }, []);
 
     const handleAdd = async () => {
-        await fetch('http://localhost:5000/api/items', {
+        await fetch('https://project-02-mern.onrender.com/api/items', {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             credentials: 'include',
@@ -33,7 +33,7 @@ const MainPage = () => {
     };
 
     const handleDelete = async (id) => {
-        await fetch(`http://localhost:5000/api/items/${id}`, {
+        await fetch(`https://project-02-mern.onrender.com/api/items/${id}`, {
             method: 'DELETE',
             credentials: 'include'
         });
@@ -47,7 +47,7 @@ const MainPage = () => {
     };
 
     const handleUpdate = async () => {
-        await fetch(`http://localhost:5000/api/items/${editId}`, {
+        await fetch(`https://project-02-mern.onrender.com/api/items/${editId}`, {
             method: 'PUT',
             headers: { 'Content-Type': 'application/json' },
             credentials: 'include',
@@ -58,7 +58,7 @@ const MainPage = () => {
     };
 
     const handleLogout = async () => {
-        await fetch('http://localhost:5000/api/auth/logout', {
+        await fetch('https://project-02-mern.onrender.com/api/auth/logout', {
             method: 'POST',
             credentials: 'include'
         });
