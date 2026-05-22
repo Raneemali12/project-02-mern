@@ -12,7 +12,7 @@ const MainPage = () => {
     const [editDescription, setEditDescription] = useState('');
 
     const fetchMovies = () => {
-        fetch('hrn.onrender.com/api/items', { credentials: 'include' })
+       fetch('https://project-02-mern.onrender.com/api/items', { credentials: 'include' })
         .then(res => res.json())
         .then(data => setMovies(Array.isArray(data) ? data : []))
         .catch(err => console.log(err));
