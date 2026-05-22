@@ -119,4 +119,39 @@ const MainPage = () => {
                         onChange={(e) => setEditDescription(e.target.value)}
                         style={{ margin: '5px', padding: '8px', width: '200px' }} />
                     <button onClick={handleUpdate} style={{ margin: '5px', padding: '8px 20px', backgroundColor: '#45a29e', border: 'none', cursor: 'pointer' }}>Save</button>
-                    <button onClick={() => setEditId(null)} style={{ margin: '5px', padding
+                    <button onClick={() => setEditId(null)} style={{ margin: '5px', padding: '8px 20px', backgroundColor: '#e74c3c', border: 'none', cursor: 'pointer' }}>Cancel</button>
+                </div>
+            )}
+
+            <div className="movies-grid">
+                {filteredMovies.map(movie => (
+                    <div key={movie._id} className="movie-card">
+                        <div className="poster-container">
+                            <img
+                                src={`/assets/${movie.poster}`}
+                                alt={movie.title}
+                                className="movie-poster"
+                            />
+                            <span className="rating-badge">{movie.rating}</span>
+                        </div>
+                        <div className="movie-info">
+                            <h3>{movie.title}</h3>
+                            <p className='movie-year'>{movie.year}</p>
+                            <p className="description">{movie.description}</p>
+                            <button onClick={() => handleDelete(movie._id)}
+                                style={{ backgroundColor: '#e74c3c', color: 'white', border: 'none', padding: '5px 10px', cursor: 'pointer', borderRadius: '5px', marginRight: '5px' }}>
+                                Delete
+                            </button>
+                            <button onClick={() => handleEdit(movie._id, movie.title, movie.description)}
+                                style={{ backgroundColor: '#45a29e', color: 'white', border: 'none', padding: '5px 10px', cursor: 'pointer', borderRadius: '5px' }}>
+                                Edit
+                            </button>
+                        </div>
+                    </div>
+                ))}
+            </div>
+        </div>
+    );
+};
+
+export default MainPage;
