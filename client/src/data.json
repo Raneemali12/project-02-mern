@@ -1,0 +1,162 @@
+[
+  {
+    "id": 1,
+    "title": "Harry Potter and the Sorcerer's Stone",
+    "year": 2001,
+    "rating": 7.6,
+    "poster": "hp1.jpg",
+    "description": "في عيد ميلاده الحادي عشر، يكتشف صبي يتيم أنه ساحر ويتم قبوله في مدرسة هوجورتس للسحر والشعوذة ويبدأ مغامرته الأولى."
+  },
+  {
+    "id": 2,
+    "title": "Harry Potter and the Chamber of Secrets",
+    "year": 2002,
+    "rating": 7.4,
+    "poster": "hp2.jpg",
+    "description": "يعود هاري إلى هوجورتس ليواجه تهديداً غامضاً يخرج من حجرة الأسرار القديمة التي فُتحت لتهدد حياة الطلاب."
+  },
+  {
+    "id": 3,
+    "title": "Harry Potter and the Prisoner of Azkaban",
+    "year": 2004,
+    "rating": 7.9,
+    "poster": "hp3.jpg",
+    "description": "يهرب القاتل المدان سيرياس بلاك من سجن أزكابان، ويبدأ هاري في اكتشاف أسرار عائلته وعلاقتهم بهذا السجين الهارب."
+  },
+  {
+    "id": 4,
+    "title": "Harry Potter and the Goblet of Fire",
+    "year": 2005,
+    "rating": 7.7,
+    "poster": "hp4.jpg",
+    "description": "يجد هاري نفسه مشاركاً رغماً عنه في بطولة السحرة الثلاثية الخطيرة، حيث يواجه تحديات مميتة وعودة اللورد فولدمورت."
+  },
+  {
+    "id": 5,
+    "title": "Harry Potter and the Order of the Phoenix",
+    "year": 2007,
+    "rating": 7.5,
+    "poster": "hp5.jpg",
+    "description": "مع إنكار وزارة السحر لعودة فولدمورت، يقوم هاري بتدريب مجموعة من الطلاب سراً للدفاع عن أنفسهم في الحرب القادمة."
+  },
+  {
+    "id": 6,
+    "title": "Harry Potter and the Half-Blood Prince",
+    "year": 2009,
+    "rating": 7.6,
+    "poster": "hp6.jpg",
+    "description": "بينما يكتشف هاري كتاباً غامضاً يخص 'الأمير الهجين'، يبدأ دامبلدور في إعداده للمواجهة النهائية عبر كشف ماضي فولدمورت."
+  },
+  {
+    "id": 7,
+    "title": "Harry Potter and the Deathly Hallows: P1",
+    "year": 2010,
+    "rating": 7.7,
+    "poster": "hp7.jpg",
+    "description": "يترك الثلاثي هوجورتس للبحث عن الهوركروكس وتدميرها، في رحلة مليئة بالمخاطر بعيداً عن حماية المدرسة وأساتذتها."
+  },
+  {
+    "id": 8,
+    "title": "Harry Potter and the Deathly Hallows: P2",
+    "year": 2011,
+    "rating": 8.1,
+    "poster": "hp8.jpg",
+    "description": "المعركة النهائية الكبرى في هوجورتس، حيث يواجه هاري مصيره الأخير ضد فولدمورت في مواجهة ستحدد مستقبل عالم السحر."
+  },
+  {
+    "id": 9,
+    "title": "Fantastic Beasts and Where to Find Them",
+    "year": 2016,
+    "rating": 7.3,
+    "poster": "fb1.jpg",
+    "description": "مغامرة في نيويورك قبل عقود من زمن هاري بوتر، حيث يواجه نيوت سكاماندر مشاكل بعد هروب مخلوقاته السحرية في المدينة."
+  },
+  {
+    "id": 10,
+    "title": "Fantastic Beasts: The Crimes of Grindelwald",
+    "year": 2018,
+    "rating": 6.5,
+    "poster": "fb2.jpg",
+    "description": "يحاول الساحر الشرير جريندلوالد جمع أتباع له لسيادة السحرة على البشر، ويحاول نيوت ودامبلدور التصدي لخططه."
+  },
+  {
+    "id": 11,
+    "title": "The Lord of the Rings: The Fellowship of the Ring",
+    "year": 2001,
+    "rating": 8.8,
+    "poster": "tl.jpg",
+    "description": "رحلة ملحمية لتدمير خاتم سحري قوي قبل أن يقع في يد قوى الشر."
+  },
+  {
+    "id": 12,
+    "title": "Maleficent",
+    "year": 2014,
+    "rating": 6.9,
+    "poster": "mt.jpg",
+    "description": "القصة غير المروية لساحرة قوية وكيف تحول قلبها إلى حجر."
+  },
+  {
+    "id": 13,
+    "title": "The Chronicles of Narnia",
+    "year": 2005,
+    "rating": 6.9,
+    "poster": "na.jpg",
+    "description": "أربعة أطفال يكتشفون خزانة ملابس تقودهم إلى عالم سحري متجمد."
+  },
+  {
+    "id": 14,
+    "title": "The Shawshank Redemption",
+    "year": 1994,
+    "rating": 9.3,
+    "poster": "SR.jpg",
+    "description": "يدين مصرفي ادين ظلما صداقة وثيقة مع سجين متمرس على مدار ربع قرن، محافظا على انسانيته من خلال أفعال بسيطة من التعاطف."
+  },
+  {
+    "id": 15,
+    "title": "The Godfather",
+    "year": 1972,
+    "rating": 9.2,
+    "poster": "TG.jpg",
+    "description":"يفوض زعيم عائلة اجرامية منظمة, المتقدم في السن ،الى ابنه المتردد ."
+  },
+  {
+    "id": 16,
+    "title": "Fight Club",
+    "year": 1999,
+    "rating": 8.8,
+    "poster": "FT.jpg",
+    "description":"يشكل موظف مكتب يعاني من الأرق وصانع صابون مستهتر نادي سري للقتال،  يتطور لاحقا الى ما هو أبعد من ذلك بكثير."
+  },
+    {
+    "id": 17,
+    "title": "Interstellar",
+    "year": 2014,
+    "rating": 8.7,
+    "poster": "IR.jpg",
+    "description":"في مستقبل بائس حيث أصبحت الأرض شبه غير صالحة للسكن، ينطلق فريق من رواد الفضاء في مهمة للبحث عن موطن جديد للبشرية. "
+  },
+  {
+    "id": 18,
+    "title": "The Matrixr",
+    "year": 1999,
+    "rating": 8.7,
+    "poster": "TM.jpg",
+    "description":"يكتشف قرصان كمبيوتر(هاكر) أن حياته ليست سوى محاكاة من ذكاء اصطناعي شرير." 
+  },
+  {
+    "id": 19,
+    "title": "Seven",
+    "year": 1995,
+    "rating": 8.6,
+    "poster": "SV.jpg",
+    "description":"يحاول محققان تتبع قاتل متسلسل يختار ضحاياه بناء على الخظايا السبع المميتة." 
+  },
+  {
+    "id": 20,
+    "title": "The Dark Knight",
+    "year": 2008,
+    "rating": 9.1,
+    "poster": "DK.jpg",
+    "description":"عندما يثير تهديد يعرف باسم (الجوكر) الدمار والفوضى بين سكان مدينة غوثام ، يتوجب على باتمان وجيمس غوردون وهارفي دينت العمل معا لوضع حد لهذا الجنون"
+  }  
+]
