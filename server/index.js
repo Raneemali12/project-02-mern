@@ -10,7 +10,7 @@ require('dotenv').config();
 const app = express();
 
 app.use(cors({
-  origin: 'http://localhost:3000',
+  origin: 'origin: ['http://localhost:3000', 'https://project-02-mern-client.onrender.com'],',
   credentials: true
 }));
 app.use(express.json());
