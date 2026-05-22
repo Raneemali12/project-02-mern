@@ -18,7 +18,7 @@ app.use(session({
   secret: process.env.SESSION_SECRET,
   resave: false,
   saveUninitialized: false,
-  cookie: { secure: true, sameSite: 'none'
+  cookie: { secure: true, sameSite: 'none'}
 }));
 
 app.use(logger);
